@@ -38,9 +38,9 @@ ps_cust_home:
 tuxedo_home:
   location: 'E:\PSoft\pt\bea\tuxedo\tuxedo12.2.2.0.0_VS2015'
 
-ps_app_home_location:   "%{hiera('pt_location')}\\ps_app_home\\cs
-ps_cfg_home_location:   "%{hiera('pt_location')}\\ps_cfg_home\\cs
-ps_cust_home_location:  "%{hiera('pt_location')}\\ps_cust_home\\cs
+ps_app_home_location:   "%{hiera('pt_location')}\\ps_app_home\\cs"
+ps_cfg_home_location:   "%{hiera('pt_location')}\\ps_cfg_home\\cs"
+ps_cust_home_location:  "%{hiera('pt_location')}\\ps_cust_home\\cs"
 ps_home_location:       "%{hiera('pt_location')}\\ps_home8.57.12"
 inventory_location:     "%{hiera('db_location')}\\oraInventory"
 oracle_client_location: "%{hiera('pt_location')}\\oracle-client\\12.1.0.2"
