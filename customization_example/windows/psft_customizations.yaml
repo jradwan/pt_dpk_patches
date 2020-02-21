@@ -56,8 +56,8 @@ ohs_location:           "%{hiera('pt_location')}\\bea\\ohs"
 #     Security     #
 ####################
 
-# Note: ALL Passwords below should be encrypted using eyaml. See 
-
+# Note: ALL Passwords below should be encrypted using eyaml. 
+# See https://psadmin.io/2016/10/25/encrypt-psft_customizations-yaml-passwords/
 
 # The PeopleSoft access ID is the RDBMS ID with which PeopleSoft applications are ultimately connected to your database after the PeopleSoft system connects using the connect ID and validates the user ID and password.
 # An access ID typically has all the RDBMS privileges necessary to access and manipulate data for an entire PeopleSoft application. 
